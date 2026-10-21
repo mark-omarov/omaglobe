@@ -1,6 +1,6 @@
 {
   "name": "@omanow/plugin",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": true,
   "type": "module",
   "description": "omanow bar widget for the omarchy shell",
