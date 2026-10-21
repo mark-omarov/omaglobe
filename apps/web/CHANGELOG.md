@@ -1,5 +1,11 @@
 # @omanow/web
 
+## 0.2.1
+
+### Patch Changes
+
+- [#4](https://github.com/mark-omarov/omanow/pull/4) [`41930d3`](https://github.com/mark-omarov/omanow/commit/41930d3053544f92bde0494e9918e651ec35a7b6) Thanks [@kevincardwell](https://github.com/kevincardwell)! - Cambridge, GB can be picked as a city, and the crosshair finds it from a weather setting or location near Cambridge instead of snapping to London.
+
 ## 0.2.0
 
 ### Minor Changes
