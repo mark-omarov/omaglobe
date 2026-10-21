@@ -15,6 +15,8 @@ test("city ids are unique and snapping picks the nearest", () => {
   assert.equal(new Set(CITIES.map((c) => c.id)).size, CITIES.length);
   assert.equal(nearestCity(52.4, 13.1).id, "berlin-de");
   assert.equal(nearestCity(-33.9, 151.0).id, "sydney-au");
+  assert.equal(nearestCity(52.2, 0.13).id, "cambridge-gb");
+  assert.equal(nearestCity(51.5, -0.1).id, "london-gb");
 });
 
 test("projection puts the facing point at the globe center", () => {
